@@ -7,24 +7,12 @@
 
    {vsn, "0.2"},
 
-   {modules,
-    [erlcron,
-     ecrn_app,
-     ecrn_sup,
-     ecrn_agent,
-     ecrn_test,
-     ecrn_control,
-     ecrn_cron_sup,
-     ecrn_reg]},
-
    {registered,
     [ecrn_agent]},
 
    {applications,
     [kernel,
-     stdlib,
-     sasl,
-     eunit]},
+     stdlib]},
 
    {mod,
     {ecrn_app, []}}
